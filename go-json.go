@@ -1,4 +1,4 @@
-//go:build 386 || arm || mipsle || mips || solaris || illumos || plan9
+//go:build !((amd64 || arm64) && !illumos && !plan9)
 
 package json
 
