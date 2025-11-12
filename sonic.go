@@ -1,4 +1,4 @@
-//go:build (amd64 || arm64) && !illumos && !plan9
+//go:build (amd64 || arm64) && !illumos && !plan9 && !solaris
 
 package json
 
